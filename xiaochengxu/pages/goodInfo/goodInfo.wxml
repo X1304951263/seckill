@@ -1,0 +1,10 @@
+<view class="info">
+    <image class="img" src="http://localhost/avatar.jpg">图片</image>
+    <text class="title">{{info.goodTitle}}</text>
+    <text class="name">{{info.goodName}}</text>
+    <text class="detail">{{info.goodDetail}}</text>
+    <text class="price">价格：{{info.price}}</text>
+    <text class="count">库存：{{info.count}}</text>
+    <text class="time">开始时间：{{info.startTime}}</text>
+    <button class="go" disabled="{{disabled}}" bindtap="buy">{{codename}}</button>
+</view>

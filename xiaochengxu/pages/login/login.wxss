@@ -1,0 +1,21 @@
+.page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.account{
+    display: flex;
+    flex-direction: row;
+}
+.word{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.id {
+    background-color:  rgb(174, 217, 255);
+}
+.password {
+    background-color: rgb(174, 217, 255);
+}

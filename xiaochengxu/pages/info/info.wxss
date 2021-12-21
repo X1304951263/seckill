@@ -1,0 +1,68 @@
+page {
+    background-color: rgb(230, 255, 255);
+}
+
+.page {
+    height:100%;
+    width:100%;
+}
+.btn {
+    display: flex;
+    background-color: rgb(230, 255, 255);
+    width: 100% !important;
+    height: 120rpx;
+    align-items: center;
+    color: rgb(85, 85, 85);
+    
+}
+
+.view {
+    width: 120rpx;
+    font-size: 40rpx;
+}
+
+.txt {
+    font-size: 40rpx;
+    width: 80rpx;
+    text-align: right;
+    margin-left: 400rpx;
+}
+
+.txt1 {
+    font-size: 40rpx;
+    width: 320rpx;
+    text-align: right;
+    margin-left: 160rpx;
+}
+.txt4 {
+    font-size: 40rpx;
+    width: 120rpx;
+    text-align: right;
+    margin-left: 360rpx;
+}
+
+.txt2 {
+    font-size: 30rpx;
+    width: 480rpx;
+    text-align: right;
+    margin-left: 0rpx;
+}
+
+.input {
+    height: 100rpx;
+    font-size: 40rpx;
+    width: 100%;
+    color: rgb(63, 63, 63);
+    background-color: rgb(243, 245, 245);
+}
+.input1 {
+    height: 100rpx;
+    font-size: 37rpx;
+    width: 592rpx;
+    color: rgb(63, 63, 63);
+    background-color: rgb(243, 245, 245);
+}
+
+.hover {
+    background-color: rgb(240, 240, 240);
+}

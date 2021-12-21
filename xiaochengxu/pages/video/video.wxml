@@ -1,0 +1,25 @@
+<view class="page">
+    <view class="a"></view>
+    <view class="list">
+        <view class="item">
+            <view class="info">
+                <image src="{{avatar}}" class="avatar"></image>
+                <text class="name">{{nickName}}</text>
+            </view>
+            <view class="content">
+                <view class="media">
+                    <video src="{{video}}" class="video"></video>
+                </view>
+                <view class="operate">
+                    <button class="del">删除</button>
+                    <button class="love">
+                        <image src="../images/zan" class="zan"></image>
+                        <text class="count" >{{count}}</text>
+                    </button>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+</view>

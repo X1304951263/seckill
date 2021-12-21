@@ -1,0 +1,48 @@
+page {
+    background-color: rgb(230, 255, 255);
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+}
+
+.item {
+    width: 47%;
+    height: 400rpx;
+    background-color: aqua;
+    margin-left: 2%;
+}
+.info {
+    width: 90%;
+    height: 340rpx;
+    display: flex;
+    flex-direction: column;
+}
+.nickName{
+    font-size: 30rpx;
+    height: 38rpx;
+    margin-left: 25rpx;
+}
+.photo {
+    width: 300rpx;
+    height: 300rpx;
+    margin-left: 25rpx;
+}
+.operation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.del {
+    width: 50%;
+    height: 80%;
+    font-size: 20rpx;
+}
+.likes {
+    width: 50%;
+    height: 80%;
+    font-size: 20rpx;
+}

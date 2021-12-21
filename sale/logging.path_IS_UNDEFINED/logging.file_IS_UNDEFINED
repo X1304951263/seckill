@@ -1,0 +1,56 @@
+2021-12-21 17:34:07.732 [restartedMain] INFO  com.ApplicationMain - Starting ApplicationMain on ZB-PF34PTHJ with PID 12344 (started by xuwei107 in D:\idea程序\sale)
+2021-12-21 17:34:07.826 [restartedMain] INFO  com.ApplicationMain - No active profile set, falling back to default profiles: default
+2021-12-21 17:34:07.919 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ebdc961: startup date [Tue Dec 21 17:34:07 CST 2021]; root of context hierarchy
+2021-12-21 17:34:10.901 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-21 17:34:11.630 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$92716b74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-21 17:34:11.670 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc05ad46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-21 17:34:12.321 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-21 17:34:12.336 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-21 17:34:12.347 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-21 17:34:12.348 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2021-12-21 17:34:12.354 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Users\xuwei107\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2021-12-21 17:34:12.495 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-21 17:34:12.495 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4576 ms
+2021-12-21 17:34:12.591 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2021-12-21 17:34:12.597 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-12-21 17:34:12.598 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-12-21 17:34:12.598 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-12-21 17:34:12.598 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2021-12-21 17:34:13.551 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - druid - Starting...
+2021-12-21 17:34:13.726 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - druid - Start completed.
+2021-12-21 17:34:13.901 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-12-21 17:34:13.902 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-12-21 17:34:14.655 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-21 17:34:14.949 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ebdc961: startup date [Tue Dec 21 17:34:07 CST 2021]; root of context hierarchy
+2021-12-21 17:34:15.013 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orderInfo],methods=[POST]}" onto public com.vo.Result com.controller.UserController.getOrder(javax.servlet.http.HttpServletRequest,java.lang.String)
+2021-12-21 17:34:15.014 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/goodsList],methods=[POST]}" onto public com.vo.Result com.controller.UserController.getGoodsList()
+2021-12-21 17:34:15.015 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/buy],methods=[POST]}" onto public com.vo.Result com.controller.UserController.buy(javax.servlet.http.HttpServletRequest,java.lang.String)
+2021-12-21 17:34:15.015 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public com.vo.Result com.controller.UserController.login(java.lang.String,java.lang.String) throws java.lang.InterruptedException
+2021-12-21 17:34:15.015 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/goodInfo],methods=[POST]}" onto public com.vo.Result com.controller.UserController.getGoodInfo(java.lang.String)
+2021-12-21 17:34:15.018 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-12-21 17:34:15.019 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-12-21 17:34:15.058 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-21 17:34:15.058 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-21 17:34:15.556 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-21 17:34:15.601 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2021-12-21 17:34:15.603 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-12-21 17:34:15.611 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2021-12-21 17:34:15.615 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-12-21 17:34:15.617 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2021-12-21 17:34:15.662 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2021-12-21 17:34:15.669 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2021-12-21 17:34:15.710 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#79df52db:0/SimpleConnection@4cb967c5 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 58880]
+2021-12-21 17:34:15.777 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-21 17:34:15.778 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2021-12-21 17:34:15.793 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-21 17:34:15.797 [restartedMain] INFO  com.ApplicationMain - Started ApplicationMain in 8.906 seconds (JVM running for 10.659)
+2021-12-21 17:39:54.988 [Thread-27] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ebdc961: startup date [Tue Dec 21 17:34:07 CST 2021]; root of context hierarchy
+2021-12-21 17:39:54.991 [Thread-27] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2021-12-21 17:39:54.994 [Thread-27] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-12-21 17:39:55.837 [Thread-27] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-12-21 17:39:55.837 [Thread-27] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2021-12-21 17:39:55.840 [Thread-27] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-12-21 17:39:55.841 [Thread-27] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2021-12-21 17:39:55.841 [Thread-27] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2021-12-21 17:39:56.970 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - druid - Shutdown initiated...
+2021-12-21 17:39:56.973 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - druid - Shutdown completed.

@@ -1,0 +1,10 @@
+<view class="info">
+    <text class="title">订单号：{{info.id}}</text>
+    <text class="name">商品名称：{{info.goodName}}</text>
+    <text class="detail">商品价格：{{info.price}}</text>
+    <text class="price">购买数量：{{info.count}}</text>
+    <text class="count" wx:if="{{info.status == 1}}">订单状态：待付款</text>
+    <text class="count" wx:else="">订单状态：已付款</text>
+    <text class="time">下单时间：{{info.create_time}}</text>
+    <text class="time">收货地址：{{info.address}}</text>
+</view>

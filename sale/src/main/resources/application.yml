@@ -1,0 +1,43 @@
+server:
+  port: 8080
+
+spring:
+  jackson:
+    joda-date-time-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: 123
+    virtual-host: /
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: 300ms
+        max-idle: 20
+        min-idle: 5
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sale?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: Xw5211314Ljw?
+    hikari:
+      pool-name: druid
+      minimum-idle: 5
+      idle-timeout: 60000
+      maximum-pool-size: 10
+      auto-commit: true
+      max-lifetime: 180000
+
+
+logging:
+  level:
+    root: info
+  path: D:/logs
+
+

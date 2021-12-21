@@ -1,0 +1,14 @@
+<view class="page"> 
+    <view class="list" wx:for="{{list}}" data-id="{{item.id}}">
+        <view class="good" bindtap="goodInfo" data-id="{{item.id}}">
+            <image src="{{item.goodImg}}" class="img"></image>
+            <text class="name">{{item.goodName}}</text>
+            <text class="title">{{item.goodTitle}}</text>
+            <text class="detail">{{item.goodDetail}}</text>
+            <text class="price">价格：{{item.price}}</text>
+            <text class="count">库存：{{item.count}}</text>
+        </view> 
+    </view>
+    
+    
+</view>

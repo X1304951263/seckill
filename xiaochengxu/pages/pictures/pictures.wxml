@@ -1,0 +1,124 @@
+<view class="page">
+    <view class="notice"></view>
+    <view class="list">
+        <view class="item" >
+            <view class="info">
+                <text class="nickName">璀璨的独孤</text>
+                <image class="photo" src="http://localhost/avatar.jpg"></image>
+            </view>
+            <view class="operation">
+                <button class="del">删除</button>
+                <button class="likes">
+                    <text class="txt">点赞</text>
+                    <text class="count">666</text>
+                </button>
+            </view>
+        </view>
+        <view class="item" >
+            <view class="info">
+                <text class="nickName">璀璨的独孤</text>
+                <image class="photo" src="http://localhost/avatar.jpg"></image>
+            </view>
+            <view class="operation">
+                <button class="del">删除</button>
+                <button class="likes">
+                    <text class="txt">点赞</text>
+                    <text class="count">666</text>
+                </button>
+            </view>
+        </view>
+        <view class="item" >
+            <view class="info">
+                <text class="nickName">璀璨的独孤</text>
+                <image class="photo" src="http://localhost/avatar.jpg"></image>
+            </view>
+            <view class="operation">
+                <button class="del">删除</button>
+                <button class="likes">
+                    <text class="txt">点赞</text>
+                    <text class="count">666</text>
+                </button>
+            </view>
+        </view>
+        <view class="item" >
+            <view class="info">
+                <text class="nickName">璀璨的独孤</text>
+                <image class="photo" src="http://localhost/avatar.jpg"></image>
+            </view>
+            <view class="operation">
+                <button class="del">删除</button>
+                <button class="likes">
+                    <text class="txt">点赞</text>
+                    <text class="count">666</text>
+                </button>
+            </view>
+        </view>
+        <view class="item" >
+            <view class="info">
+                <text class="nickName">璀璨的独孤</text>
+                <image class="photo" src="http://localhost/avatar.jpg"></image>
+            </view>
+            <view class="operation">
+                <button class="del">删除</button>
+                <button class="likes">
+                    <text class="txt">点赞</text>
+                    <text class="count">666</text>
+                </button>
+            </view>
+        </view>
+        
+        <view class="item" >
+            <view class="info">
+                <text class="nickName">璀璨的独孤</text>
+                <image class="photo" src="http://localhost/avatar.jpg"></image>
+            </view>
+            <view class="operation">
+                <button class="del">删除</button>
+                <button class="likes">
+                    <text class="txt">点赞</text>
+                    <text class="count">666</text>
+                </button>
+            </view>
+        </view>
+        <view class="item" >
+            <view class="info">
+                <text class="nickName">璀璨的独孤</text>
+                <image class="photo" src="http://localhost/avatar.jpg"></image>
+            </view>
+            <view class="operation">
+                <button class="del">删除</button>
+                <button class="likes">
+                    <text class="txt">点赞</text>
+                    <text class="count">666</text>
+                </button>
+            </view>
+        </view>
+        <view class="item" >
+            <view class="info">
+                <text class="nickName">璀璨的独孤</text>
+                <image class="photo" src="http://localhost/avatar.jpg"></image>
+            </view>
+            <view class="operation">
+                <button class="del">删除</button>
+                <button class="likes">
+                    <text class="txt">点赞</text>
+                    <text class="count">666</text>
+                </button>
+            </view>
+        </view>
+        <view class="item" >
+            <view class="info">
+                <text class="nickName">璀璨的独孤</text>
+                <image class="photo" src="http://localhost/avatar.jpg"></image>
+            </view>
+            <view class="operation">
+                <button class="del">删除</button>
+                <button class="likes">
+                    <text class="txt">点赞</text>
+                    <text class="count">666</text>
+                </button>
+            </view>
+        </view>
+    </view>    
+
+</view>

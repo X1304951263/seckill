@@ -1,0 +1,20 @@
+page{
+    background-color: aliceblue;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.img {
+    width: 600rpx;
+    height: 600rpx;
+    margin-left: 80rpx;
+}
+
+.go {
+    background-color: red !important;
+    width: 100% !important;
+    height: 70rpx;
+    color: #000;
+}
